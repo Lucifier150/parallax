@@ -10,6 +10,9 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    background-image: url("./assets/spillac1a.png");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 
 .nav-link {

@@ -33,6 +33,9 @@ $(function () {
         content2.css('opacity', opacityRatio2);
     });
 });
+
+//  we clone the card template, update the title and text content, and append the modified card to the container!
+
 $(document).ready(function () {
     // Get references to container and template
     var cardContainer = $('#cardContainer');
