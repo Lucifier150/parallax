@@ -353,11 +353,11 @@
     <section class="pt-5 pb-5">
         <div class="wrapper">
             <div class="silder__heading">
-                <h2>
+                <h2 class="text-center">
                     Meet Our Creative Team
                 </h2>
             </div>
-           
+
         </div>
         <div class="container">
             <div class="slider__main responsive">
@@ -492,6 +492,7 @@
             </div>
         </div>
     </section>
+  
 </body>
 
 </html>
@@ -501,11 +502,13 @@
 <script>
     $('.responsive').slick({
         dots: true,
-        arrows:true,
+        arrows: true,
         infinite: true,
         speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 4,
+        prevArrow:"<img class='a-left control-c prev slick-prev' src='/assets/chevron-left-solid.svg'>",
+      nextArrow:"<img class='a-right control-c next slick-next' src='/assets/chevron-right-solid.svg'>",
         responsive: [
             {
                 breakpoint: 1024,
