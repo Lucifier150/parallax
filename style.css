@@ -84,6 +84,10 @@ h2 {
     top: 0 !important;
 }
 
+.anas__css {
+    top: 35px;
+}
+
 .text-container {
     height: 145vh;
     position: relative;
@@ -324,7 +328,11 @@ h2 {
 .slider__main .slick-list {
     padding: 3rem 0;
 }
-
+.slider__main .slick-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .slick-next::before {
     color: #081158;
 }
@@ -398,6 +406,14 @@ ul {
     text-transform: capitalize;
     text-decoration: none;
 }
-footer{
+
+footer {
     padding: 5rem 0;
+}
+
+@media (max-width:400px) {
+    .anas__css {
+        top: -130px;
+        position: relative;
+    }
 }
