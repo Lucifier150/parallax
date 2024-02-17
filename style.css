@@ -62,7 +62,10 @@ img {
     background-color: #4BE0DC;
     opacity: .95;
 }
-
+h2{
+    color: #081158;
+    font-weight: 700;
+}
 .zoom .background {
     background-position: bottom !important;
     background-size: cover !important;
@@ -123,7 +126,7 @@ img {
     background: url(./assets/cross-out1651.png) no-repeat right bottom / contain;
     height: 37%;
     width: 21%;
-    left: 82px;
+    left: 9%;
     top: 2.2rem;
 }
 
