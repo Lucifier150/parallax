@@ -283,7 +283,8 @@ h2 {
 .profile_card:hover .caption {
     opacity: 1;
 }
-.image img:hover{
+
+.image img:hover {
     border-radius: 10px;
 
 }
@@ -332,11 +333,13 @@ h2 {
 .slider__main .slick-list {
     padding: 3rem 0;
 }
-.slider__main .slick-slide{
+
+.slider__main .slick-slide {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .slick-next::before {
     color: #081158;
 }
