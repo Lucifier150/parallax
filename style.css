@@ -62,10 +62,12 @@ img {
     background-color: #4BE0DC;
     opacity: .95;
 }
-h2{
+
+h2 {
     color: #081158;
     font-weight: 700;
 }
+
 .zoom .background {
     background-position: bottom !important;
     background-size: cover !important;
@@ -160,13 +162,170 @@ h2{
 }
 
 .card_heading-inner h4 {
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
 }
-.btn-custom{
+
+.btn-custom {
     background: transparent;
     border: 1px solid #000;
     border-radius: 100px;
     /* width: 100%; */
     padding: 5px 20px;
+}
+
+.box_1 {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 30px 30px 30px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    background: #FFF;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.box_1:hover {
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+
+}
+
+.box_1 img {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.box_1 h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #081158;
+    margin-bottom: 23px;
+}
+
+.box_1 p {
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+}
+
+.content-text_grey p {
+    font-family: "Open Sans", sans-serif;
+    color: #6e6e6e;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.btn_my {
+    border-radius: 100px;
+    padding: 15px 25px;
+    border: none;
+}
+
+.darkblue {
+    background-color: #081158;
+    color: #FFF;
+    border: 1px solid #081158;
+    transition: .5s ease-in-out;
+}
+
+.whitebtn {
+    border: 1px solid #081158;
+    background-color: #FFF;
+    transition: .5s ease-in-out;
+}
+
+.darkblue:hover {
+    border: 1px solid #081158;
+    background-color: #FFF;
+    color: #000;
+}
+
+.whitebtn:hover {
+    background-color: #081158;
+    color: #FFF;
+}
+
+.sub_heading h4 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.profile_card {
+    position: relative;
+    font-family: sans-serif;
+    width: 220px;
+    height: 220px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+    margin: 0 25px;
+}
+
+.profile_card:hover {
+    border-radius: 10px;
+    height: 260px;
+}
+
+.profile_card:hover .image {
+    transform: translateY(-60px);
+}
+
+.profile_card:hover .caption {
+    opacity: 1;
+}
+
+.profile_card .image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: .6s;
+    z-index: 99;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px #3336;
+    transition: .6s;
+}
+
+.caption {
+    text-align: center;
+    transform: translateY(-80px);
+    opacity: 0;
+    transition: .6s;
+}
+
+.caption h3 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.caption p {
+    font-size: 15px;
+    color: #0c52a1;
+    font-family: sans-serif;
+    margin: 2px 0 9px 0;
+}
+
+.caption .social-links a {
+    color: #333;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .6s;
+}
+.slider__main .slick-list{
+    padding: 3rem 0;
+}
+.slick-next::before{
+    color: #081158;
+}
+.slick-prev::before{
+    color: #081158;
 }
