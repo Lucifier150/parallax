@@ -19,7 +19,8 @@ $(function () {
                 background.css('top', top);
                 background.addClass('topAdded');
             }
-        } else {
+        } 
+        else {
             background.addClass('sticky-bg');
             background.removeClass('topAdded');
         }
