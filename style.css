@@ -283,6 +283,10 @@ h2 {
 .profile_card:hover .caption {
     opacity: 1;
 }
+.image img:hover{
+    border-radius: 10px;
+
+}
 
 .profile_card .image {
     position: relative;
